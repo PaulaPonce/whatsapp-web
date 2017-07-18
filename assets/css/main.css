@@ -1,0 +1,84 @@
+body{
+	padding: 0;
+	margin: 0;
+}
+
+header{
+	padding: 2em;
+}
+
+#contacts .row, 
+#chat .row{
+	margin-bottom: 0;
+}
+
+nav{
+	height: 70px;
+}
+
+img.circle.small-img{
+	width: 27%;
+	height: auto;
+}
+
+.fa{
+	font-size: 1.2em;
+}
+.input-field .fa{
+	font-size: 1em;
+}
+
+img.circle{
+	width: 15%;
+	height: auto;
+	margin: .5em;
+}
+
+.prefix{
+	padding: .5em;
+}
+
+.bg{
+	background-image: url("../img/chat-panel-bg.png");
+	background-size: cover;
+	background-repeat: no-repeat;
+	background-position: center;
+	height: 450px;
+	z-index: 1000;
+}
+
+#contacts input[type=text]:not(.browser-default){
+	width: 92%;
+	padding-left: 2em;
+	border: 1px solid #eeeeee;
+}
+
+#chat input[type=text]:not(.browser-default){
+	width: 100%;
+	border: none;
+}
+
+#message{
+	padding-top: 1em;
+	padding-bottom: 1em;
+}
+
+#new-message .fa{
+	margin-top: .5em;
+	padding: 1em;
+}
+
+.sent-message, 
+.recibidos{
+	border-radius: 5px;
+	margin: .5em;
+	padding: .5em;
+}
+.sent-message{
+	background-color: #e1bee7;
+	text-align: right;
+}
+.recibidos{
+	background-color: whitesmoke;
+	text-align: left;
+}

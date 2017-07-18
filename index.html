@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Document</title>
+	<!-- Viewport -->
+	<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+	<!-- Favicon -->
+	<link rel="icon"
+      type="image/ico"
+      href="assets/img/favicon.png">
+	<!-- Icons -->
+	<link rel="stylesheet" type="text/css" href="assets/fonts/font-awesome-4.7.0/css/font-awesome.min.css">
+	<!-- Materialize -->
+	<link rel="stylesheet" href="assets/materialize/css/materialize.min.css">
+	<!-- main.css -->
+	<link rel="stylesheet" type="text/css" href="assets/css/main.css">
+</head>
+<body class="grey lighten-3">
+	<header class="teal lighten-1"></header>
+
+	<div class="row">
+		<!-- Contacts Section -->
+		<section id="contacts" class="col l4 m4">
+			<div class="row">
+				<nav class="col l12 m12 nav-wrapper grey lighten-3">
+					<img class="circle" src="assets/img/gian.jpg">
+						<ul class="right">
+							<li>
+								<a href="#" class="grey-text text-darken-1"><i class="fa fa-address-card" aria-hidden="true"></i></a>
+							</li>
+							<li>
+								<a href="#" class="grey-text text-darken-1"><i class="fa fa-ellipsis-v" aria-hidden="true"></i></a>
+							</li>
+						</ul>
+				</nav>
+			</div>
+			<div class="row white">
+				<div class="col l12 m12 input-field">
+					<label for="buscar"><i class="fa fa-search prefix" aria-hidden="true"></i></label>
+					<input type="text" id="buscar" name="buscar" placeholder="Buscar o empezar un chat nuevo">
+				</div>
+			</div>
+			<div class="row white">
+				<div class="col s12 m12">
+					<!-- aquí irán los contactos -->
+				</div>
+			</div>
+		</section>
+
+		<!-- Chat Section -->
+		<section id="chat" class="col l8 m8">
+			<div class="row">
+				<nav class="col l12 m12 nav-wrapper grey lighten-3">
+					<div class="row">
+						<div class="col l3 m3 left">
+							<img class="circle small-img" src="assets/img/logocodeacademy.png">
+						</div>
+						<div class="col l2 m2 right">
+							<ul>
+								<li>
+									<a href="#" class="grey-text text-darken-1"><i class="fa fa-paperclip" aria-hidden="true"></i></a>
+								</li>
+								<li>
+									<a href="#" class="grey-text text-darken-1"><i class="fa fa-ellipsis-v" aria-hidden="true"></i></a>
+								</li>
+							</ul>
+						</div>
+					</div>
+				</nav>
+			</div>
+			<div class="row">
+				<div id="message" class="col l12 m12 bg">
+					<span class="recibidos">Hola :3</span>
+					<!-- aquí irán los mensajes -->
+				</div>
+			</div>
+			<div id="new-message" class="row grey lighten-4">
+				<div class="col l1 m1">
+					<a href="#" class="grey-text">
+						<i class="fa fa-smile-o" aria-hidden="true"></i>
+					</a>
+				</div>
+				<div class="col l10 m10 input-field">
+					<label for="send-message"></label>
+					<input type="text" id="send-message" name="send-message" placeholder=" Escribe tu mensaje aquí" class="white">
+				</div>
+				<div class="col l1 m1">
+					<a href="#" id="micro" class="grey-text text-darken">
+						<i class="fa fa-microphone" aria-hidden="true"></i>
+					</a>
+				</div>
+			</div>
+		</section>
+	</div>
+
+	<!-- jQuery -->
+	<script type="text/javascript" src="assets/js/jQuery/jquery-3.2.1.min.js" ></script>
+	<!-- Materialize -->
+	<script type="text/javascript" src="assets/materialize/js/materialize.min.js"></script>
+	<!-- main.js -->
+	<script type="text/javascript" src="assets/js/main.js"></script>
+</body>
+</html>
